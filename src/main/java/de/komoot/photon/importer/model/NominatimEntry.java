@@ -84,6 +84,10 @@ public class NominatimEntry extends NominatimEntryParent {
 		this.city = city;
 	}
 
+	public double getImportance() {
+		return importance;
+	}
+
 	public String getHousenumber() {
 		return houseNumber;
 	}
